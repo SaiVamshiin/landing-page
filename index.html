@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <!------------------------navbar -------------- -->
+        <section class="nav">
+            <div class="logo">
+             <div class="image-logo"></div>
+             <h1 class="name">Manga King</h1>
+           </div>
+           <div class="search">
+               <label for="search"><span class="material-icons-outlined search-icon">
+                   search
+               </span></label>
+               <input type="text" placeholder="search" name="search" id="search" >
+           </div>
+           <div class="menu">
+              <a href="" class="icon"><i class="fa fa-fw fa-home"></i>Home</a>
+               <a href="#trending" class="icon">Trending</a>
+               <button type="button" class="btn">Login</button>
+               <button type="button" class="button">Sign up</button>
+           </div>
+       </section>
+        <!--------------------------vedio----------------------- --> 
+       <video id = "myVideo" muted autoplay loop> 
+        <source src = "./luffy clip.mp4" type = "video/mp4"></src>
+    </video>
+    <!-- -------------------------------trending------------------------>
+    <div class="trending-container" id="trending">
+        <h1 class="heading">The Top 10 Trending Manga.</h1>
+        <div class="container flex">
+            <div class="item flex-item">
+                <div class="card">
+                <img src="./one piece.png" alt="Avatar" class="image">
+                <div class="overlay">
+                <div class="text">One Piece</div>
+                <a href="" class="page" target="_blank"><button type="submit" class="click">Click here</button></a>
+            </div>
+            </div>
+            </div>
+            <div class="item flex-item">
+                <div class="card">
+                    <img src="./tale-demon.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Tales Of Demon God</div>
+                    <a href="https://manhuaplus.com/manga/tales-of-demons-and-gods01/" target="_blank" class="page"><button type="submit" class="click">Click here</button></a>
+                </div> 
+                </div>
+            </div>
+            <div class="item flex-item">
+                <div class="card">
+                    <img src="./demonslayer.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Demon Slayer</div>
+                    <a href="" class="page" target="_blank"><button type="submit" class="click">Click here</button></a>
+                </div>
+                </div>
+            </div>
+            <div class="item flex-item"><div class="card">
+                <img src="./martial-peak.png" alt="Avatar" class="image">
+                <div class="overlay">
+                <div class="text">Martial Peak</div>
+                <a href="" class="page" target="_blank"><button type="submit" class="click">Click here</button></a>
+            </div> 
+            </div></div>
+            <div class="item flex-item">
+                <div class="card">
+                    <img src="./demon-emperor.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Demon Emperor</div>
+                    <a href="" class="page" target="_blank"><button type="submit" class="click">Click here</button></a>
+                </div>
+                </div>
+            </div>
+            <div class="item flex-item">
+                <div class="card">
+                    <img src="./apotheosis.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Apotheosis</div>
+                    <a href="" class="page" target="_blank"><button type="submit" class="click">Click here</button></a>
+                </div>
+                </div>
+            </div>
+            <div class="item flex-item">
+                <div class="card">
+                    <img src="./yuan-zun.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Yuan-Zun</div>
+                    <a href="https://manhuaplus.com/manga/yuan-zun01/" class="page" target="_blank"><button type="submit" class="click">Click here</button></a>
+                </div>
+                </div>
+            </div>
+            <div class="item flex-item">
+                <div class="card">
+                    <img src="./the-great-ruler.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">The Great Ruler</div>
+                    <a href="" class="page" target="_blank"><button type="submit" class="click">Click here</button></a>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!------------------------------------ Sign up----------------------------- -->
+    <div class="signup">
+        <div class="sign-up-wrapper">
+          <div class="catalog">
+            <div class="textBox">
+              <p class="textBox-big">Call to action! It's time!</p>
+              <p class="textBox-small">Sign up for more manga clicking that button right over there!</p>  
+            </div>
+            <div class="center-btn">
+            <button class="sign-up-button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------------------- footer--------------------------- -->
+      <footer class="footer">
+        <p class="footer-name">&copy; 2021 The Odin Project</p>
+      </footer>
+</body>
+</html>
